@@ -1,0 +1,26 @@
+
+
+* { box-sizing: border-box; }
+.container{
+  display: flex;
+  flex-flow: wrap;
+  margin: 5px 0;
+  gap: 3px;
+}
+.col{
+	flex: 2;
+	border: 1px solid gray;
+	margin: 6px;
+	max-width: 100%;
+}
+.text{
+	margin: 10px 10px 10px 10px;
+}
+img {
+	max-width: 100%;
+    margin: 0;
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
